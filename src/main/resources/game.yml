@@ -1,0 +1,73 @@
+sound:
+  start_sound: "ENTITY_ENDER_DRAGON_GROWL"
+
+world: "world"
+
+wawe:
+  first:
+    time: 30
+    mobs:
+      - type: "ZOMBIE"
+        count: 5
+    mob_damage_multiply: 1.0
+    mob_health_multiply: 1.0
+  second:
+    time: 30
+    mobs:
+      - type: "ZOMBIE"
+        count: 7
+      - type: "SKELETON"
+        count: 3
+    mob_damage_multiply: 1.3
+    mob_health_multiply: 1.5
+  third:
+    time: 30
+    mobs:
+      - type: "ZOMBIE"
+        count: 10
+      - type: "SKELETON"
+        count: 5
+    mob_damage_multiply: 2.0
+    mob_health_multiply: 2.5
+
+chest:
+  rarities:
+    common:
+      name: "Редкая"
+      chance: 60.0
+      items:
+        iron_ingot:
+          material: "IRON_INGOT"
+          amount: 3
+          chance: 100.0
+        coal:
+          material: "COAL"
+          amount: 5
+          chance: 100.0
+    rare:
+      name: "Эпическая"
+      chance: 30.0
+      items:
+        gold_ingot:
+          material: "GOLD_INGOT"
+          amount: 3
+          chance: 100.0
+        iron_sword:
+          material: "IRON_SWORD"
+          amount: 1
+          chance: 100.0
+    legendary:
+      name: "Легендарная"
+      chance: 10.0
+      items:
+        diamond:
+          material: "DIAMOND"
+          amount: 1
+          chance: 100.0
+        diamond_sword:
+          material: "DIAMOND_SWORD"
+          amount: 1
+          chance: 100.0
+          enchantments:
+            DAMAGE_ALL:
+              level: 1

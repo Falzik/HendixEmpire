@@ -1,0 +1,25 @@
+prefix: "&7[&eHendixEmpire&7] &f>&r"
+
+event:
+  mysterious_sound:
+    message: "Воздух дрожит. Мир шепчет о грядущем"
+    time: 5 # Time after start event
+  strange_sound:
+    message: "Где-то рядом открылся разлом..."
+    sound: # Sound
+    time: 10
+
+start_game:
+  pre_start: "Вы слышите странные звуки из глубин.. что-то приближается"
+  pre_start_sound: "ENTITY_ENDER_DRAGON_GROWL"
+  start_game: "&eКоординаты: &7%x% %y% %z%\nОтправься туда если не боишься умереть, снова и снова"
+  time_for_start: 20
+
+chest:
+  spawn: "%prefix% Появился сундук из преисподни с добычей! Редкость: %rarity%"
+  not_open: "%prefix% &cСундук еще не открыт! "
+
+wawe:
+  first: "%prefix% Мёртвые поднимаются"
+  second: "%prefix% Тени становятся плотнее они злее"
+  third: "%prefix% Врата преисподней открыты. Добро пожаловать в ад!"

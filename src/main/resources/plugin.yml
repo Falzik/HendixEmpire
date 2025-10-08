@@ -1,0 +1,8 @@
+name: HendixEmpire
+version: '${project.version}'
+main: me.falzik.work.hendixempire.HendixEmpire
+api-version: '1.16'
+commands:
+  game:
+    description: "Start event"
+    usage: "/<command> start"
